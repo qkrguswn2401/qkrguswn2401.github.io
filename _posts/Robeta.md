@@ -1,9 +1,9 @@
 ---
 title: "Breaking Down Roberta"
-date: 2021-02-15
+date: 2021-02-15 08:26:28 -0400
 categories: Paper Review
 ---
-
 Problems with BERT: BERT is significantly undertrained because only 15% of training data are masked and learned.  New Language model, RoBERTa is introduced; it exceeds or match all of post-BERT methods.
-What is Proposed: 
+What is Proposed: Here are four differences. 1: RoERTa is trained with longer and bigger batches over more data.  2:  next sentence prediction is removed 3: traind with longere sequences. 4. Masking pattern method is difference (Dynamically changed)
+
 1:
