@@ -1,7 +1,25 @@
 ---
 title: "Domain-agnostic Question-Answering with Adversarial Training"
 date: 2021-02-26 08:26:28 -0400
-categories: Paper Review
+categories: Paper Review Question-Answering Bert
 ---
 
-Motivation: 
+What domain-agnostic means antonum for domain-specific
+
+Motivation:   Domain generalization for adverssarial training.  deep learning networks have problem of predicting with out-of-domain data.
+Model consists of conventional QA model and discriminator.  Model that perform well on one task, outperforming human evaluation, has difficulty of being generalized.
+Model that overfit to specifc dataset must be trained on different dataset to be genearalized.
+For model to be domain-agnostic, it must be learn domain-invariant feateures.
+QA model in divided into two components: QA model and domain discriminator.  
+The discriminator predicts domain label of hidden from the QA model.  During training, QA model tries to fool the discriminator so that 
+the hidden representation becomes indistinguishable to the discriminator while discriminator is trained to predcit domain label correctly.
+This is how it learns domain invariant features.  
+
+Proposition:  There must be domain-invariant feature representation on that QA model can be generalized and predict well on OOD data or domina.
+Bert is pre-trained on large corpus data and known be work well on many differnet dataset.  
+Minizing cross entropy alone makes the model to be overfitted for certain dataset.  This is where GAN comes in.  
+In adversarial training procedure, QA model learns to make the discriminator to be uncertain about it predcition.  But, discriminator is trained to classify the joint embedding of question and passage from QA.
+
+loss is cross-entropy
+Loss for model is loss(QA) + lambda*loss(adv) where lambda is the hyper-parameter
+
