@@ -61,4 +61,4 @@ alpha_2(1) = alpha_1(1)*P(C|C)*P(1|C) + alpha_1(2)*P(C|H)*P(1|C) = 0.069
 The point is we store those alpha values somewhere, calculate alphas (no unncessary calcuation).
 
 ![image](https://user-images.githubusercontent.com/36841216/112831241-a1f85000-90ce-11eb-9d4f-89eccae1446a.png)
-what this equation means is that summing over forward probability ends up being equilvalent to likelihood.
+what this equation means is that summing over forward probability at the last sequences ends up being equilvalent to likelihood.
