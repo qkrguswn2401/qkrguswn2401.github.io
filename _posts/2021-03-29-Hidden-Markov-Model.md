@@ -40,6 +40,8 @@ Computing the total probability of the observations just by summing over all pos
 ![image](https://user-images.githubusercontent.com/36841216/112827684-a3734980-90c9-11eb-890a-75f638fbec29.png)
 
 For this cass, 3(3 1 3) observables T, 2 hidden (Hot cold) states N, there are 2^3 possible hidden sequences.  By adding all of these sequences, we get the total probability of the observation.
+![image](https://user-images.githubusercontent.com/36841216/112829050-863f7a80-90cb-11eb-9cb5-74330c2b4a55.png)
+
 ![image](https://user-images.githubusercontent.com/36841216/112827900-efbe8980-90c9-11eb-9a92-1593d945affc.png)
 
 When N and T get real big, computation costs way too much, too much running time
