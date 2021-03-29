@@ -1,16 +1,11 @@
 ---
-title: "What are soundex and mra"
-date: 2021-02-19 08:26:28 -0400
-categories: Algorithm Must-Knpw
+title: "Hidden Markove Model (HMM)"
+date: 2021-03-29 08:26:28 -0400
+categories: Algorithm
 ---
 
-Application of this algorithm is to find similarity of texts.
+HMM is built on Markov Chain.  Markkov Chain is sequences of states that have path to each other with prbability of going to some state.  Past state is does not affecet when predicting what comes next; only current state matters.  Ex)  predict tomorrow's weather based on today, not yesterday.  
 
-What is Phoneme: distinct unit of sound in specified langauge that distinguish one wrod from another ex) m and b as in mat and bat
-What is homophome: each of two or more words that have the same pronunciation but different meaning.
-Soundex: a phonetic algorithm, algorithm for indexing of words by theire pronounciation (useful in English).  
-Purpose of this algorithm is for homophones to be encoded to the same representation even if they are spelled diffrently.
+Markov Assumption: ![image](https://user-images.githubusercontent.com/36841216/112824671-cbf94480-90c5-11eb-9143-a580e6245d18.png)
 
-Match Rating Approach: Phonetic Algorithm for indexation and comparison of homophonous names.
-Main mechanism is to find simialrity comparison by calculating the number of unmathced characters by comparing the strings from left to right and then right to left, and removing identical characters.  
-It has encoding and comparison rules. 
+
