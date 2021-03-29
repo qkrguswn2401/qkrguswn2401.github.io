@@ -75,6 +75,11 @@ What is Viterbi Algorithm?
 It does have somewhat like forward algorithm part but it has backtrace.
 ![image](https://user-images.githubusercontent.com/36841216/112835758-ac1d4d00-90d4-11eb-8739-048ac03d4f6a.png)
 Unlike forward algorith, it takes the one of max from inputs.  
-
+Viterbi algorithm has pointer becasue it has to produce probability and most likely state sequence.  By using backsequence, most probable squences are kept.
 ![image](https://user-images.githubusercontent.com/36841216/112835722-9f005e00-90d4-11eb-84ec-a7d3718bed58.png)
+
+Example of Viterbi Algorithm: 여기서는 최소하는 것을 찾아서 max 대신 min을 사용
+![image](https://user-images.githubusercontent.com/36841216/112836069-12a26b00-90d5-11eb-81a6-c45ee865a2d3.png)
+
+![image](https://user-images.githubusercontent.com/36841216/112836111-1e8e2d00-90d5-11eb-9b8d-9006aa89c7a5.png)
 
