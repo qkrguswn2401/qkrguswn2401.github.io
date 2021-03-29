@@ -82,4 +82,14 @@ Example of Viterbi Algorithm: 여기서는 최소하는 것을 찾아서 max 대
 ![image](https://user-images.githubusercontent.com/36841216/112836069-12a26b00-90d5-11eb-81a6-c45ee865a2d3.png)
 
 ![image](https://user-images.githubusercontent.com/36841216/112836111-1e8e2d00-90d5-11eb-9b8d-9006aa89c7a5.png)
+![image](https://user-images.githubusercontent.com/36841216/112836585-c277d880-90d5-11eb-8fe2-600b1372c55e.png)
+위와 같은 식으로 각 state당 cost를 구함.  time step = 2 and S_1,1일떄, assembly line 1을 유지하는게 더 cost 가 낮음.
+l_2[1] = 1
 
+![image](https://user-images.githubusercontent.com/36841216/112836896-24384280-90d6-11eb-930b-34cd379eb1fb.png)
+위와 같이 cost 낮은 assembly을 저장.
+
+각 state에 min cost와 최적 경로를 어디간에 저장
+![image](https://user-images.githubusercontent.com/36841216/112837187-87c27000-90d6-11eb-994a-cdd24cc43449.png)
+![image](https://user-images.githubusercontent.com/36841216/112837201-8d1fba80-90d6-11eb-9813-aebfb4a9d120.png)
+![Alt Text](C:\Users\aiter\Downloads\VA-MOVIE.GIF)
