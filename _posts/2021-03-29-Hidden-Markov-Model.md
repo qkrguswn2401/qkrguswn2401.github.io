@@ -96,3 +96,6 @@ l_2[1] = 1
 at the end of stage.
 ![image](https://user-images.githubusercontent.com/36841216/112837712-2ea70c00-90d7-11eb-8e6b-db8daddf4017.png)
 
+Assume most probable state is at theta_0.  
+theta_0, theta_2, theta_2, theta_1, theta_0, theta_1 
+
