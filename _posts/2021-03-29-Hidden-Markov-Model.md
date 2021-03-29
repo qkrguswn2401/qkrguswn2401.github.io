@@ -70,3 +70,11 @@ Decoding task: taks of determining which sequence of variables is the underlying
 ![image](https://user-images.githubusercontent.com/36841216/112831753-5db97f80-90cf-11eb-93ac-4dfe65fe80e7.png)
 Ex: Given seuquence 3 1 3, find out best hidden weather state for that seuqence.
 Viterbi Algorithm is like DP programming (minimum edit distance)
+
+What is Viterbi Algorithm?
+It does have somewhat like forward algorithm part but it has backtrace.
+![image](https://user-images.githubusercontent.com/36841216/112835758-ac1d4d00-90d4-11eb-8739-048ac03d4f6a.png)
+
+
+![image](https://user-images.githubusercontent.com/36841216/112835722-9f005e00-90d4-11eb-84ec-a7d3718bed58.png)
+
