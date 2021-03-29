@@ -30,3 +30,7 @@ Given observation, the likehood of the obsevation sequence is  ![image](https://
 Givne sequence like 3 1 3 when determining the probability of an ice,  ![image](https://user-images.githubusercontent.com/36841216/112827037-c2251080-90c8-11eb-81af-ee8f8856d3a9.png)
 ![image](https://user-images.githubusercontent.com/36841216/112827061-ce10d280-90c8-11eb-8ad3-4115e5c39aa7.png)
 
+By doing this we do not know the actual weather sequences (hidden sequences), we need to compute probability over all possible weather sequences, 
+![image](https://user-images.githubusercontent.com/36841216/112827314-221bb700-90c9-11eb-9af8-6aa68378b0ee.png)
+computes joint probability of being in a particualr weather sequence and generate a particualr sequence.
+![image](https://user-images.githubusercontent.com/36841216/112827340-2c3db580-90c9-11eb-8e3c-29bdc3ce4c89.png)
