@@ -62,3 +62,11 @@ The point is we store those alpha values somewhere, calculate alphas (no unncess
 
 ![image](https://user-images.githubusercontent.com/36841216/112831241-a1f85000-90ce-11eb-9d4f-89eccae1446a.png)
 what this equation means is that summing over forward probability at the last sequences ends up being equilvalent to likelihood.
+
+
+
+2. Decoding:Viterbi Algorithm
+Decoding task: taks of determining which sequence of variables is the underlying source of some sequence of observation.
+![image](https://user-images.githubusercontent.com/36841216/112831753-5db97f80-90cf-11eb-93ac-4dfe65fe80e7.png)
+Ex: Given seuquence 3 1 3, find out best hidden weather state for that seuqence.
+Viterbi Algorithm is like DP programming (minimum edit distance)
