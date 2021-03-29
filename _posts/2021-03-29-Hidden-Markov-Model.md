@@ -93,3 +93,6 @@ l_2[1] = 1
 ![image](https://user-images.githubusercontent.com/36841216/112837187-87c27000-90d6-11eb-994a-cdd24cc43449.png)
 ![image](https://user-images.githubusercontent.com/36841216/112837201-8d1fba80-90d6-11eb-9813-aebfb4a9d120.png)
 ![VA-MOVIE](https://user-images.githubusercontent.com/36841216/112837582-08816c00-90d7-11eb-9363-b5d252b019c6.GIF)
+at the end of stage.
+![image](https://user-images.githubusercontent.com/36841216/112837712-2ea70c00-90d7-11eb-8e6b-db8daddf4017.png)
+
