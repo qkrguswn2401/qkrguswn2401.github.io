@@ -92,4 +92,4 @@ l_2[1] = 1
 각 state에 min cost와 최적 경로를 어디간에 저장
 ![image](https://user-images.githubusercontent.com/36841216/112837187-87c27000-90d6-11eb-994a-cdd24cc43449.png)
 ![image](https://user-images.githubusercontent.com/36841216/112837201-8d1fba80-90d6-11eb-9813-aebfb4a9d120.png)
-![Alt Text](C:\Users\aiter\Downloads\VA-MOVIE.GIF)
+![VA-MOVIE](https://user-images.githubusercontent.com/36841216/112837582-08816c00-90d7-11eb-9363-b5d252b019c6.GIF)
