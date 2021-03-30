@@ -116,6 +116,8 @@ Example of Forward and Backward algorithm
 
 We can see that mulitying forward and backward probability at same time step literally calcualte all of possible paths that go to that state from front and back. Here is what that means.
 ![image](https://user-images.githubusercontent.com/36841216/112935901-ae78b900-915f-11eb-896b-648f962aaf86.png)
-\n summing over mulication of forwad and backward probabilty is equal to likelihood.
+<br/>summing over mulication of forwad and backward probabilty is equal to likelihood.
+
+  
 
 
