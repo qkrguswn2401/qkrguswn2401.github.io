@@ -131,6 +131,11 @@ formula for computing transition probability.
 <br/>predicted transition probability = (expected number of transition from state i to state j)/(expected number of transitions from state i)
 ![image](https://user-images.githubusercontent.com/36841216/112954802-b6dded80-9179-11eb-9399-bd1363a9e53a.png)
 
+![image](https://user-images.githubusercontent.com/36841216/112956733-b7778380-917b-11eb-8b8d-4e09bbbdf56a.png)
+
+<br/> what numberator means: summation over transition probability from ith state to jth state.
+<br/> what denominator means: summation over all paths of transition probabilities that could possibly go from ith state.
+
 <br/> we also need a formual for computing observation probability.
 ![image](https://user-images.githubusercontent.com/36841216/112955334-45eb0580-917a-11eb-908a-75df8d5cf345.png)
 We need to know the probability of being in state j at time, lambda.
@@ -138,5 +143,6 @@ We need to know the probability of being in state j at time, lambda.
 
 <br/> emission probalility of seeing v_k given at j state is ![image](https://user-images.githubusercontent.com/36841216/112956191-27d1d500-917b-11eb-8663-6ab8fb221847.png)
 
-
+<br/> what numberator means: 
+<br/> what denominator means: 
 
