@@ -124,17 +124,11 @@ X_t = probability of being in state i at time t and state j at time t+1, given o
 
 <br/>Bayes's theorem:  ![image](https://user-images.githubusercontent.com/36841216/112950981-d7a44400-9175-11eb-9b03-0cf257e86d2f.png)
 <br/>Probability of observation:![image](https://user-images.githubusercontent.com/36841216/112952343-58b00b00-9177-11eb-81df-2d5a61ecc9ab.png)
-Using Baye's theorem and probability of observation, we can reformulze xi_t as 
+<br/>Using Baye's theorem and probability of observation, we can reformulze xi_t as 
 <br/>![image](https://user-images.githubusercontent.com/36841216/112952479-7ed5ab00-9177-11eb-91cb-faf5b8204abc.png)
+formula for computing transition probability.
+
 <br/>predicted transition probability = (expected number of transition from state i to state j)/(expected number of transitions from state i)
 ![image](https://user-images.githubusercontent.com/36841216/112954802-b6dded80-9179-11eb-9399-bd1363a9e53a.png)
 
 
-
-
-
-
-
-
-
-  
