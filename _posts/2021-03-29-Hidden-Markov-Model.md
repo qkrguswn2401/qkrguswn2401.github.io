@@ -141,11 +141,18 @@ formula for computing transition probability.
 
 <br/> we also need a formual for computing observation probability.
 ![image](https://user-images.githubusercontent.com/36841216/112955334-45eb0580-917a-11eb-908a-75df8d5cf345.png)
-We need to know the probability of being in state j at time, lambda.
+We need to know the probability of being in state j at time, gamma.
 ![image](https://user-images.githubusercontent.com/36841216/112955942-e4776680-917a-11eb-8f13-ec632e3cd371.png)
 
 <br/> emission probalility of seeing v_k given at j state is ![image](https://user-images.githubusercontent.com/36841216/112956191-27d1d500-917b-11eb-8663-6ab8fb221847.png)
 <br/> why sigma? emission probability has nothing to do with time step.  
 <br/> what numberator means: at state state, probability of v_k given o_t.
 <br/> what denominator means: probability of seeing ith state.
+
+<br/> EM-Algorithm  
+<br/> E-step: fixed model paremter lambda (transition probability A and emission probability B), update forward probability and backward probability based on observation.
+<br/> M-Step: update paramters A,B based xi and gamma calucatd from E step
+<br/> pesudo code
+![image](https://user-images.githubusercontent.com/36841216/112960364-4fc33780-917f-11eb-8b18-c60836b09344.png)
+
 
