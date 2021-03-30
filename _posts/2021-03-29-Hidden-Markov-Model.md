@@ -136,6 +136,9 @@ formula for computing transition probability.
 <br/> what numberator means: summation over transition probability from ith state to jth state.
 <br/> what denominator means: summation over all paths of transition probabilities that could possibly go from ith state.
 
+Red dotted: denominataor.
+black dotted: numerator.
+
 <br/> we also need a formual for computing observation probability.
 ![image](https://user-images.githubusercontent.com/36841216/112955334-45eb0580-917a-11eb-908a-75df8d5cf345.png)
 We need to know the probability of being in state j at time, lambda.
