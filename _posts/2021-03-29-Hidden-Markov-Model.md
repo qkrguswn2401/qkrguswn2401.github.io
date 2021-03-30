@@ -131,4 +131,11 @@ formula for computing transition probability.
 <br/>predicted transition probability = (expected number of transition from state i to state j)/(expected number of transitions from state i)
 ![image](https://user-images.githubusercontent.com/36841216/112954802-b6dded80-9179-11eb-9399-bd1363a9e53a.png)
 
+<br/> we also need a formual for computing observation probability.
+![image](https://user-images.githubusercontent.com/36841216/112955334-45eb0580-917a-11eb-908a-75df8d5cf345.png)
+We need to know the probability of being in state j at time, lambda.
+![image](https://user-images.githubusercontent.com/36841216/112955671-a24e2500-917a-11eb-9922-47e5cb88f237.png)  => ![image](https://user-images.githubusercontent.com/36841216/112955732-b3973180-917a-11eb-957a-c32bba72357e.png)
+
+
+
 
