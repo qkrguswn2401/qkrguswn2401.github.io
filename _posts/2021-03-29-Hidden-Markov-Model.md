@@ -135,9 +135,9 @@ formula for computing transition probability.
 
 <br/> what numberator means: summation over transition probability from ith state to jth state.
 <br/> what denominator means: summation over all paths of transition probabilities that could possibly go from ith state.
-
-Red dotted: denominataor.
-black dotted: numerator.
+<br/> Why sigma? regardless of time sequence, there exists ith state and transition probability. why? T-1: transition probability=100%, right before T. 
+<br/>Red dotted: denominataor.
+<br/>black dotted: numerator.
 
 <br/> we also need a formual for computing observation probability.
 ![image](https://user-images.githubusercontent.com/36841216/112955334-45eb0580-917a-11eb-908a-75df8d5cf345.png)
@@ -145,7 +145,7 @@ We need to know the probability of being in state j at time, lambda.
 ![image](https://user-images.githubusercontent.com/36841216/112955942-e4776680-917a-11eb-8f13-ec632e3cd371.png)
 
 <br/> emission probalility of seeing v_k given at j state is ![image](https://user-images.githubusercontent.com/36841216/112956191-27d1d500-917b-11eb-8663-6ab8fb221847.png)
-
-<br/> what numberator means: 
-<br/> what denominator means: 
+<br/> why sigma? emission probability has nothing to do with time step.  
+<br/> what numberator means: at state state, probability of v_k given o_t.
+<br/> what denominator means: probability of seeing ith state.
 
