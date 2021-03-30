@@ -110,4 +110,12 @@ What forward means:
 P =  summing over (previous forward probaility * probablity of going from i to j state * probability of finding observation_t at j state).
 What backward means: 
 P = summing over(next backward probabiltiy * probability of going from i to j state probability of finding Obseravtion_t+1 at j state ).
+Example of Forward and Backward algorithm
+![image](https://user-images.githubusercontent.com/36841216/112935558-f814d400-915e-11eb-8fb3-f56a06a79bcd.png)
+![image](https://user-images.githubusercontent.com/36841216/112935695-3a3e1580-915f-11eb-9dab-2c94299a0210.png)
+
+We can see that mulitying forward and backward probability at same time step literally calcualte all of possible paths that go to that state from front and back. Here is what that means.
+![image](https://user-images.githubusercontent.com/36841216/112935901-ae78b900-915f-11eb-896b-648f962aaf86.png)
+summing over mulication of forwad and backward probabilty is equal to likelihood.
+
 
