@@ -99,4 +99,15 @@ at the end of stage.
 Assume most probable state is at theta_0.  
 theta_0, theta_2, theta_2, theta_1, theta_0, theta_1 
 
-Part 3: HMM training: the forward-backward algorithm
+Part 3: HMM training: the forward-backward algorithm (Algorithm used for training for HMM, known as Baum-Welch or specail cas for Expectation-maximization algorithm (EM))
+
+This algorithm lets us train both trasition and emission probabilities of the HMM.
+EM algorithm is an iterative algorithm that tries to compute better estimate for each iteration and improves probability as it learns.
+Remember the equation for finding forward and backward probability
+![image](https://user-images.githubusercontent.com/36841216/112934363-93f11080-915c-11eb-80c4-3f0a6fb2f070.png)
+
+What forward means: 
+P =  summing over (previous forward probaility * probablity of going from i to j state * probability of finding observation_t at j state).
+What backward means: 
+P = summing over(next backward probabiltiy * probability of going from i to j state probability of finding Obseravtion_t+1 at j state ).
+
