@@ -134,8 +134,9 @@ formula for computing transition probability.
 <br/> we also need a formual for computing observation probability.
 ![image](https://user-images.githubusercontent.com/36841216/112955334-45eb0580-917a-11eb-908a-75df8d5cf345.png)
 We need to know the probability of being in state j at time, lambda.
-![image](https://user-images.githubusercontent.com/36841216/112955671-a24e2500-917a-11eb-9922-47e5cb88f237.png)  => ![image](https://user-images.githubusercontent.com/36841216/112955732-b3973180-917a-11eb-957a-c32bba72357e.png)
+![image](https://user-images.githubusercontent.com/36841216/112955942-e4776680-917a-11eb-8f13-ec632e3cd371.png)
 
+<br/> emission probalility of seeing v_k given at j state is ![image](https://user-images.githubusercontent.com/36841216/112956191-27d1d500-917b-11eb-8663-6ab8fb221847.png)
 
 
 
