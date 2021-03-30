@@ -25,7 +25,7 @@ Example:  predicting weather by consumption of ice-cream.
 Markov chanin must be characterized by threee fundamental problem by Rabiner
 ![image](https://user-images.githubusercontent.com/36841216/112825612-f39cdc80-90c6-11eb-8626-c1e40d553d3f.png)
 
-1. Likelihood:  first problem is to compute the likelihood of a particular observation sequence. 
+Part 1. Likelihood:  first problem is to compute the likelihood of a particular observation sequence. 
 Given observation, the likehood of the obsevation sequence is  ![image](https://user-images.githubusercontent.com/36841216/112826908-9570f900-90c8-11eb-9fdf-02cee651d0c4.png)
 Givne sequence like 3 1 3 when determining the probability of an ice,  ![image](https://user-images.githubusercontent.com/36841216/112827037-c2251080-90c8-11eb-81af-ee8f8856d3a9.png)
 ![image](https://user-images.githubusercontent.com/36841216/112827061-ce10d280-90c8-11eb-8ad3-4115e5c39aa7.png)
@@ -65,7 +65,7 @@ what this equation means is that summing over forward probability at the last se
 
 
 
-2. Decoding:Viterbi Algorithm
+Part 2. Decoding:Viterbi Algorithm
 Decoding task: taks of determining which sequence of variables is the underlying source of some sequence of observation.
 ![image](https://user-images.githubusercontent.com/36841216/112831753-5db97f80-90cf-11eb-93ac-4dfe65fe80e7.png)
 Ex: Given seuquence 3 1 3, find out best hidden weather state for that seuqence.
@@ -99,3 +99,4 @@ at the end of stage.
 Assume most probable state is at theta_0.  
 theta_0, theta_2, theta_2, theta_1, theta_0, theta_1 
 
+Part 3: HMM training: the forward-backward algorithm
