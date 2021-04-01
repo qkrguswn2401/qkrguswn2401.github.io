@@ -66,7 +66,7 @@ what this equation means is that summing over forward probability at the last se
 
 
 Part 2. Decoding:Viterbi Algorithm
-Decoding task: taks of determining which sequence of variables is the underlying source of some sequence of observation.
+Decoding task: task of determining which sequence of variables is the underlying source of some sequence of observation.
 ![image](https://user-images.githubusercontent.com/36841216/112831753-5db97f80-90cf-11eb-93ac-4dfe65fe80e7.png)
 Ex: Given seuquence 3 1 3, find out best hidden weather state for that seuqence.
 Viterbi Algorithm is like DP programming (minimum edit distance)
