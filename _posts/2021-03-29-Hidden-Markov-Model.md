@@ -119,8 +119,9 @@ We can see that mulitying forward and backward probability at same time step lit
 <br/>summing over mulication of forwad and backward probabilty is equal to likelihood.
 
 Definition: ![image](https://user-images.githubusercontent.com/36841216/112951967-e6d7c180-9176-11eb-9be6-f95af75e47e7.png)
-<br/>X_t = probability of being in state i at time t and state j at time t+1, given observation and model.
 <br/>![image](https://user-images.githubusercontent.com/36841216/112952133-21d9f500-9177-11eb-80e0-af7b661042e4.png)
+<br/>X_t = probability of being in state i at time t and state j at time t+1, given observation and model.
+
 
 <br/>Bayes's theorem:  ![image](https://user-images.githubusercontent.com/36841216/112950981-d7a44400-9175-11eb-9b03-0cf257e86d2f.png)
 <br/>Probability of observation:![image](https://user-images.githubusercontent.com/36841216/112952343-58b00b00-9177-11eb-81df-2d5a61ecc9ab.png)
