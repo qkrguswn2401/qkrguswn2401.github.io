@@ -47,7 +47,7 @@ For this cass, 3(3 1 3) observables T, 2 hidden (Hot cold) states N, there are 2
 
 When N and T get real big, computation costs way too much, too much running time
 
-Forward algorithm is proposed.  It is like DP programming, which computes teh obseravtion probability by summing over the probablites of all possible hidden state paths that could generate the obseravtion sequence.  
+Forward algorithm is proposed.  It is like DP programming, which computes the obseravtion probability by summing over the probablites of all possible hidden state paths that could generate the obseravtion sequence.  
 
 Visualization of Forward Algorithm:
 ![image](https://user-images.githubusercontent.com/36841216/112829527-344b2480-90cc-11eb-8363-917d1c63cfe9.png)
