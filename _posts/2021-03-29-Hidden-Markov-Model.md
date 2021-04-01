@@ -8,14 +8,14 @@ HMM is built on Markov Chain.  Markkov Chain is sequences of states that have pa
 Markov chain is useful when evetns are observable.
 Markov Assumption: ![image](https://user-images.githubusercontent.com/36841216/112824671-cbf94480-90c5-11eb-9143-a580e6245d18.png)
 
-Example of Markov Chain:  ![image](https://user-images.githubusercontent.com/36841216/112824769-e501f580-90c5-11eb-9704-8ab74cea9b68.png)
+<br/>Example of Markov Chain:  ![image](https://user-images.githubusercontent.com/36841216/112824769-e501f580-90c5-11eb-9704-8ab74cea9b68.png)
 
 Hidden Markov Chain: both observable events (words) and unobservable (POS)
 
-First order hiddne Markov model is based on two simplifying assumptions:
+<br/>First order hiddne Markov model is based on two simplifying assumptions:
 ![image](https://user-images.githubusercontent.com/36841216/112825096-4de96d80-90c6-11eb-8834-796a43ad6173.png)
 Explaination: only current state affect next state.
-
+<br/>
 ![image](https://user-images.githubusercontent.com/36841216/112825105-52158b00-90c6-11eb-8a78-bbf72498b9c4.png)
 Explaination: probability of an output observation depends only on the state produced the observation; output is produced by observation at same time step.
 
