@@ -17,7 +17,7 @@ Hidden Markov Chain: both observable events (words) and unobservable (POS)
 Explaination: only current state affect next state.
 <br/>
 ![image](https://user-images.githubusercontent.com/36841216/112825105-52158b00-90c6-11eb-8a78-bbf72498b9c4.png)
-Explaination: probability of an output observation depends only on the state produced the observation; output is produced by observation at same time step.
+Explaination: probability of an output observation, o depends only on the state produced the observation q
 
 Example:  predicting weather by consumption of ice-cream.
 ![image](https://user-images.githubusercontent.com/36841216/112826035-7160e800-90c7-11eb-8505-7da72661f180.png)
