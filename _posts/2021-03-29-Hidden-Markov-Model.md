@@ -53,7 +53,6 @@ Visualization of Forward Algorithm:
 ![image](https://user-images.githubusercontent.com/36841216/112829527-344b2480-90cc-11eb-8363-917d1c63cfe9.png)
 
 by using this algorithm, ![image](https://user-images.githubusercontent.com/36841216/112829899-c3583c80-90cc-11eb-8496-63a08d87a63b.png)
-where ![image](https://user-images.githubusercontent.com/36841216/112829916-cb17e100-90cc-11eb-9841-0b63319df925.png).
 
 alpha_1(1) = P(C|Start)*P(3|C) = 0.02
 alpha_1(2) = P(H|Start)*P(3|H) = 0.32 
