@@ -72,9 +72,9 @@ Ex: Given seuquence 3 1 3, find out best hidden weather state for that seuqence.
 Viterbi Algorithm is like DP programming (minimum edit distance)
 
 What is Viterbi Algorithm?
-It does have somewhat like forward algorithm part but it has backtrace.
+It behaves somewhat like forward algorithm but it has backtrace part
 ![image](https://user-images.githubusercontent.com/36841216/112835758-ac1d4d00-90d4-11eb-8739-048ac03d4f6a.png)
-Unlike forward algorith, it takes the one of max from inputs.  
+nlike forward algorith, it takes the one of max from inputs.  
 Viterbi algorithm has pointer becasue it has to produce probability and most likely state sequence.  By using backsequence, most probable squences are kept.
 ![image](https://user-images.githubusercontent.com/36841216/112835722-9f005e00-90d4-11eb-84ec-a7d3718bed58.png)
 
