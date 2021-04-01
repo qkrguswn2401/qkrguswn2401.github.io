@@ -74,7 +74,7 @@ Viterbi Algorithm is like DP programming (minimum edit distance)
 What is Viterbi Algorithm?
 It behaves somewhat like forward algorithm but it has backtrace part
 ![image](https://user-images.githubusercontent.com/36841216/112835758-ac1d4d00-90d4-11eb-8739-048ac03d4f6a.png)
-nlike forward algorith, it takes the one of max from inputs.  
+nlike forward algorith, it takes the max of inputs.  
 Viterbi algorithm has pointer becasue it has to produce probability and most likely state sequence.  By using backsequence, most probable squences are kept.
 ![image](https://user-images.githubusercontent.com/36841216/112835722-9f005e00-90d4-11eb-84ec-a7d3718bed58.png)
 
