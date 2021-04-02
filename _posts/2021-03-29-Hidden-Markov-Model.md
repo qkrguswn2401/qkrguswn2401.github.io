@@ -34,7 +34,7 @@ Given sequence like 3 1 3 (hidden sequence), one possible hidden sequence of hot
 we must compute the probability of ice-cream and event 3 1 3 instead by summing over all possible weather sequences, weighted by their probability.
 ![image](https://user-images.githubusercontent.com/36841216/112827314-221bb700-90c9-11eb-9af8-6aa68378b0ee.png)
 
-computes joint probability of being in a particualr weather sequence and generate a particualr sequence.
+computing joint probability of being in a particualr weather sequence and generate a particualr sequence.
 ![image](https://user-images.githubusercontent.com/36841216/112827340-2c3db580-90c9-11eb-8e3c-29bdc3ce4c89.png)
 
 Computing the total probability of the observations just by summing over all possibel hidden state sequence.
