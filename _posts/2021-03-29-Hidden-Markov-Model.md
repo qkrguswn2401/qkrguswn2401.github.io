@@ -12,7 +12,7 @@ Markov Assumption: ![image](https://user-images.githubusercontent.com/36841216/1
 
 Hidden Markov Chain: both observable events (words) and unobservable (POS)
 
-<br/>First order hiddne Markov model is based on two simplifying assumptions:
+<br/>First order hidden Markov model is based on assumptions:
 ![image](https://user-images.githubusercontent.com/36841216/112825096-4de96d80-90c6-11eb-8834-796a43ad6173.png)
 Explaination: only current state affect next state.
 <br/>
