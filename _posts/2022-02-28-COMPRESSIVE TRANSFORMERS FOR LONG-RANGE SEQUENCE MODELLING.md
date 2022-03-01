@@ -24,7 +24,7 @@ Related Works
       As the model moves to the next sequence, its hidden activations are pushed into a fixed-size FIFO memory.  Old hidden activation in memory are evicted.  compression operations are applied mapping,  the old memoreis to compressed memories, which are stored in a secondary FIFO compressed memory.  
 ![image](https://user-images.githubusercontent.com/36841216/156108763-11c49de8-99a5-4462-88fa-289e21d6ef2e.png)
 
-    Model.compressipon functions and losses
+  Model.compressipon functions and losses
       (1) max/mean pooling, (2) 1D convolutions (3) dilated convolutions (4) most-used: most-used are preserved.
       Auto-encoding losses: reconstructs the original memories from compressed memories ||old_mem - new_cm||<sub>2</sub>
       attention-reconsctruction: reconsctructs the content-based attention over memory, with content-based attention over the compressed memories.
