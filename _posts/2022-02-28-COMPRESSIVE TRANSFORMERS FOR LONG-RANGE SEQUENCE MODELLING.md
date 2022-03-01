@@ -1,9 +1,10 @@
 ---
-title: "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context"
+title: "COMPRESSIVE TRANSFORMERS FOR LONG-RANGE SEQUENCE MODELLING"
 date: 2022-02-28 08:26:28 -0400
 categories: Paper Review
 ---
-Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context
+COMPRESSIVE TRANSFORMERS FOR LONG-RANGE SEQUENCE MODELLING
+
 
 Abstract:
   BLANC (BLock AttentioN for Context prediction) is based on two ideas.
